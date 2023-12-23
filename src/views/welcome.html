@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body
+    style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #181A20; color: #757575; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 10px;">
+        <div style="padding: 10px 0;">
+            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r5.png" alt="google"
+                style="max-width: 100%; height: auto;">
+        </div>
+        <div>
+            <h2 style="font-size: 2rem; color: rgb(230, 228, 228);">Your sign-in code</h2>
+            <p>Please copy and paste the 4-digit code below into the number fields of your sign-in process.</p>
+            <div style="background-color: #1D1F26; padding: 10px; font-size: 1rem; color: #7EB693;">
+                <h1 style="margin: 0; text-align: center;">
+                    <%= otp %>
+                </h1>
+            </div>
+
+            <div style="padding: 29px 0;">
+                <p>
+                    <strong>Please Note:</strong> the code will be valid for the next <strong>30 minutes</strong>.
+                    <br>
+                    <br>
+                    <span>If you didn’t try to sign-in or create an account on Green web, you can safely ignore this
+                        email.</span>
+                </p>
+            </div>
+
+            <div style="border-top: 1px solid #757575;  padding-top: 20px;">
+                <p>Make your choice. We’ll help you design it.</p>
+                <p>social icons</p>
+                <div>
+                    <h3>Help</h3>
+                    <p><a href="#" style="text-decoration: none; color: #757575;">Unsubscribe</a></p>
+                    <p>Green Web</p>
+                    <p>&copy; <span id="currentYear" style="color: #757575;">
+                            <%= year %>
+                        </span> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
